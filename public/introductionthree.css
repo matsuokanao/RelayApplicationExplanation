@@ -85,9 +85,165 @@ html,body{
   padding: 30px 0;
 }
 
-
-
 .content-right{
   flex-basis: 50%;
   text-align: center;
+}
+
+/* LANDING CSS */
+.landing{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10vw 0 10vw;
+  height: 100vh;
+}
+.landingText h1{
+  font-size: 6vw;
+  margin: 0 !important;
+}
+
+.landingText h3{
+  margin: 6px !important;
+  font-size: 20px;
+  opacity: 0.3;
+  line-height: 30px;
+}
+
+.landingText .btn{
+  width: 120px;
+  margin-top: 30px;
+  font-size: 1.2vw;
+  padding: 14px 20px 14px 20px;
+  background-color: #2f8be0;
+  color: #ffffff;
+  border-radius: 45px;
+}
+
+.landingText .btn a{
+  font-size: 1.2vw;
+  color: #ffffff;
+}
+
+.landingImage img{
+  width: 28vw;
+}
+
+/* ABOUT CSS */
+
+.about{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10vw 0 10vw;
+  height: 100vh;
+}
+.aboutText h1{
+  font-size: 6vw;
+  margin: 100px !important;
+}
+
+.aboutText h3{
+  margin: 6px !important;
+  font-size: 20px;
+  opacity: 0.3;
+  line-height: 30px;
+}
+
+.aboutImage img{
+  width: 28vw;
+}
+
+
+/* RESPONSIVE */
+@media only screen and (max-width: 700px){
+  .nav{
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    height: auto;
+    overflow: hidden;
+  }
+  .nav h4{
+    font-size: 6vw;
+    margin-top: 10px;
+    margin-bottom: 14px;
+  }
+  .nav .links a{
+    margin-right: 25px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  /*ww*/
+.hero{
+  width: 80%;
+  position: relative;
+  top: 100px;
+  margin-top: 100px ;
+}
+.btn-box{
+  display: flex;
+  border-bottom: 1px solid #cccccc;
+}
+.btn-box a{
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  margin-right: 50px;
+  font-size: 7px;
+  font-weight: bold;
+  color: #000;
+}
+
+  /* LANDING PAGE */
+  .landing{
+    flex-direction: column-reverse;
+    height: 750px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .landingText h1{
+    font-size: 6vw;
+    margin: 0 !important;
+  }
+  .landingText h3{
+    font-size: 16px;
+  }
+  .landingText .btn{
+    margin: 0 auto;
+  }
+  .landingText .btn a{
+    font-size: 3vw;
+  }
+  .landingImage img{
+    height: 400px;
+    width: 52vw;
+    margin-bottom: 20px;
+  }
+
+  /* ABOUT */
+  .about{
+    flex-direction: column-reverse;
+    height: 750px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .aboutText h1{
+    font-size: 6vw;
+    margin: 0 !important;
+  }
+  .aboutText h3{
+    font-size: 16px;
+  }
+  .aboutImage img{
+    width: 52vw;
+    margin-bottom: 20px;
+  }
+
 }
