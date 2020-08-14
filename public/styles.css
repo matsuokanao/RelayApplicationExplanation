@@ -73,3 +73,303 @@ html,body{
   color: #ffffff;
   border-radius: 45px;
 }
+
+.landingText .btn a{
+  font-size: 1.2vw;
+  color: #ffffff;
+}
+
+.landingImage img{
+  width: 28vw;
+}
+
+/* ABOUT CSS */
+
+.about{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10vw 0 10vw;
+  height: 100vh;
+}
+.aboutText h1{
+  font-size: 6vw;
+  margin: 0 !important;
+}
+
+.aboutText h3{
+  margin: 6px !important;
+  font-size: 20px;
+  opacity: 0.3;
+  line-height: 30px;
+}
+
+.aboutImage img{
+  width: 28vw;
+}
+/* INFO_SECTION CSS*/
+
+.infoSection{
+  height: 600px;
+}
+
+.infoHeader{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.infoCards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0 40px 0;
+}
+
+.infoCards .card{
+  position: relative;
+  height: 360px;
+  width: 350px;
+  background: #ffffff;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0,0.09),0 10px 10px rgba(0, 0, 0, 0,0.09);
+}
+
+.infoCards .one .cardoneImg{
+  width: 300px;
+  position: absolute;
+  top: -50px;
+  right: -50px;
+}
+
+.infoCards .two .cardtwoImg{
+  width: 300px;
+  position: absolute;
+  top: -50px;
+  right: -50px;
+}
+
+.cardbgone{
+  height: 150px;
+  background-color: #e63946;
+}
+
+.cardbgtwo{
+  height: 150px;
+  background-color: #00b4d8;
+}
+
+.cardContent{
+  padding: 0 20px;
+}
+
+.cardContent h2{
+  font-weight: 600;
+}
+
+.cardContent p{
+  line-height: 30px;
+  opacity: 0.6;
+}
+
+.cardContent .cardBtn{
+  position: absolute;
+  right: 20px;
+  padding: 10px;
+  background-color: #ededed;
+  width: 25px;
+  height: 20px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all ease-in-out 0.2s;
+}
+
+.cardContent .cardBtn:hover{
+  background-color: #2f8be0;
+}
+
+.cardContent .cardBtn .cardIcon{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 16px;
+}
+
+.infoCardstwo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0 40px 0;
+}
+
+.infoCardstwo .card{
+  position: relative;
+  height: 360px;
+  width: 350px;
+  background: #ffffff;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0,0.09),0 10px 10px rgba(0, 0, 0, 0,0.09);
+}
+
+.infoCardstwo .three .cardthreeImg{
+  width: 300px;
+  position: absolute;
+  top: -50px;
+  right: -50px;
+}
+
+.infoCardstwo .four .cardfourImg{
+  width: 300px;
+  position: absolute;
+  top: -50px;
+  right: -50px;
+}
+
+.cardbgthree{
+  height: 150px;
+  background-color: #ffd166;
+}
+
+.cardbgfour{
+  height: 150px;
+  background-color: #02c39a;
+}
+
+.cardContent{
+  padding: 0 20px;
+}
+
+.cardContent h2{
+  font-weight: 600;
+}
+
+.cardContent p{
+  line-height: 30px;
+  opacity: 0.6;
+}
+
+.cardContent .cardBtn{
+  position: absolute;
+  right: 20px;
+  padding: 10px;
+  background-color: #ededed;
+  width: 25px;
+  height: 20px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all ease-in-out 0.2s;
+}
+
+.cardContent .cardBtn:hover{
+  background-color: #2f8be0;
+}
+
+.cardContent .cardBtn .cardIcon{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 16px;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 700px){
+  .nav{
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    height: auto;
+    overflow: hidden;
+  }
+  .nav h4{
+    font-size: 6vw;
+    margin-top: 10px;
+    margin-bottom: 14px;
+  }
+  .nav .links a{
+    margin-right: 25px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  /* LANDING PAGE */
+  .landing{
+    flex-direction: column-reverse;
+    height: 750px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .landingText h1{
+    font-size: 6vw;
+    margin: 0 !important;
+  }
+  .landingText h3{
+    font-size: 16px;
+  }
+  .landingText .btn{
+    margin: 0 auto;
+  }
+  .landingText .btn a{
+    font-size: 3vw;
+  }
+  .landingImage img{
+    height: 400px;
+    width: 52vw;
+    margin-bottom: 20px;
+  }
+
+  /* ABOUT */
+  .about{
+    flex-direction: column-reverse;
+    height: 750px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .aboutText h1{
+    font-size: 6vw;
+    margin: 0 !important;
+  }
+  .aboutText h3{
+    font-size: 16px;
+  }
+  .aboutImage img{
+    width: 52vw;
+    margin-bottom: 20px;
+  }
+
+
+  .infoSection{
+    height: auto;
+  }
+
+  .infoHeader{
+    text-align: center;
+    margin: 40px 0;
+  }
+
+  .infoCards{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .infoCardstwo{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  
+
+}
