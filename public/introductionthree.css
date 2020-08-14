@@ -107,8 +107,9 @@ html,body{
 .landingText h3{
   margin: 6px !important;
   font-size: 20px;
-  opacity: 0.3;
+  opacity: 0.8;
   line-height: 30px;
+  color: #000;
 }
 .landingImage img{
   width: 28vw;
@@ -222,7 +223,7 @@ html,body{
   }
   .aboutImage img{
     width: 52vw;
-    margin-bottom: 20px;
+    padding-left: 50px;
   }
 
 }

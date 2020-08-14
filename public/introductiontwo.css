@@ -222,7 +222,7 @@ html,body{
   }
   .aboutImage img{
     width: 52vw;
-    margin-bottom: 20px;
+    padding-left: 50px;
   }
 
 }
