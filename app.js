@@ -20,7 +20,10 @@ app.post('/contact', function(req, res, next){
 });
 
 
-app.listen(port, () => console.log(`Example app listening at http://localhost: ` + port))
+server.listen(port, () => {
+  console.log("App is running on port " + port);
+});
+
 
 
 
