@@ -35,7 +35,7 @@ html,body{
   color: #000;
 }
 .nav .links .mainlink{
- color: #e0501b;
+ color: #e63946;
 }
 .nav h4{
   font-size: 22px;
@@ -107,8 +107,8 @@ html,body{
 .landingText h3{
   margin: 6px !important;
   font-size: 20px;
-  opacity: 0.8;
-  line-height: 30px;
+  opacity: 0.6;
+  line-height: 70px;
   color: #000;
 }
 .landingImage img{
@@ -133,8 +133,8 @@ html,body{
 .aboutText h3{
   margin: 6px !important;
   font-size: 20px;
-  opacity: 0.8;
-  line-height: 30px;
+  opacity: 0.6;
+  line-height: 70px;
   color: #000;
 }
 
@@ -193,6 +193,8 @@ html,body{
     align-items: center;
     justify-content: center;
     text-align: center;
+    top: 200px;
+    margin-top: 200px ;
   }
   .landingText h1{
     font-size: 6vw;
@@ -201,6 +203,7 @@ html,body{
   .landingText h3{
     font-size: 16px;
     color: #000;
+    line-height: 30px;
   }
   .landingImage img{
     height: 400px;
@@ -215,6 +218,8 @@ html,body{
     align-items: center;
     justify-content: center;
     text-align: center;
+    top: 200px;
+    margin-top: 200px ;
   }
   .aboutText h1{
     font-size: 6vw;
@@ -223,6 +228,7 @@ html,body{
   .aboutText h3{
     font-size: 16px;
     color: #000;
+    line-height: 30px;
   }
   .aboutImage img{
     width: 52vw;

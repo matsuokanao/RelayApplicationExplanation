@@ -66,7 +66,7 @@ html,body{
   color: #e0501b;
 }
 .btn-box .mainlinks{
-  color: #e0501b;
+  color: #e63946;
 }
 .content-right img{
   width: 350px;
@@ -107,8 +107,8 @@ html,body{
 .landingText h3{
   margin: 6px !important;
   font-size: 20px;
-  opacity: 0.3;
-  line-height: 30px;
+  opacity: 0.6;
+  line-height: 70px;
 }
 .landingImage img{
   width: 28vw;
@@ -132,8 +132,8 @@ html,body{
 .aboutText h3{
   margin: 6px !important;
   font-size: 20px;
-  opacity: 0.3;
-  line-height: 30px;
+  opacity: 0.6;
+  line-height: 70px;
 }
 
 .aboutImage img{
@@ -198,6 +198,7 @@ html,body{
   }
   .landingText h3{
     font-size: 16px;
+    line-height: 30px;
   }
   .landingImage img{
     height: 400px;
@@ -219,6 +220,7 @@ html,body{
   }
   .aboutText h3{
     font-size: 16px;
+    line-height: 30px;
   }
   .aboutImage img{
     width: 52vw;
