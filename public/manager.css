@@ -35,7 +35,7 @@ html,body{
   color: #000;
 }
 .nav .links .mainlink{
- color: #e63946;
+ color: #02c39a;
 }
 .nav h4{
   font-size: 22px;
@@ -63,10 +63,10 @@ html,body{
   color: #000;
 }
 .btn-box a:hover{
-  color: #e0501b;
+  color: #02c39a;
 }
 .btn-box .mainlinks{
-  color: #e0501b;
+  color: #02c39a;
 }
 .content-right img{
   width: 350px;
@@ -163,9 +163,9 @@ html,body{
     font-size: 12px;
     font-weight: 600;
   }
-  /*ww*/
+   /*ww*/
 .hero{
-  width: 80%;
+  width: 100%;
   position: relative;
   top: 100px;
   margin-top: 100px ;
@@ -180,7 +180,7 @@ html,body{
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
-  margin-right: 50px;
+  margin-right: 20px;
   font-size: 7px;
   font-weight: bold;
   color: #000;
