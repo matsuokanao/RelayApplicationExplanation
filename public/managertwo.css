@@ -1,0 +1,237 @@
+html,body{
+  background-color: #ffffff;
+  font-family: 'Source Sans Pro',sans-serif;
+  overflow-x: hidden !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+*{
+  text-decoration: none !important;
+}
+
+.nav{
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 25px 0 25px;
+  background-color: #ffffff;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.10);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.nav .links a{
+  margin-right: 25px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
+.nav .links .mainlink{
+ color: #02c39a;
+}
+.nav h4{
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 25px;
+}
+.hero{
+  width: 80%;
+  position: relative;
+  margin: 100px auto;
+}
+.btn-box{
+  display: flex;
+  border-bottom: 1px solid #cccccc;
+}
+.btn-box a{
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  margin-right: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+.btn-box a:hover{
+  color: #02c39a;
+}
+.btn-box .mainlinks{
+  color: #02c39a;
+}
+.content-right img{
+  width: 350px;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5% auto;
+}
+.content-left{
+  flex-basis: 50%;
+}
+.content-left p{
+  font-size: 15px;
+  padding: 30px 0;
+}
+
+.content-right{
+  flex-basis: 50%;
+  text-align: center;
+}
+
+/* LANDING CSS */
+.landing{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10vw 0 10vw;
+  height: 100vh;
+}
+.landingText h1{
+  font-size: 6vw;
+  margin: 0 !important;
+}
+
+.landingText h3{
+  margin: 6px !important;
+  font-size: 20px;
+  opacity: 0.6;
+  line-height: 70px;
+  color: #000;
+}
+
+.landingImage img{
+  width: 28vw;
+}
+
+/* ABOUT CSS */
+
+.about{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10vw 0 10vw;
+  height: 100vh;
+}
+.aboutText h1{
+  font-size: 6vw;
+  margin: 0 !important;
+}
+
+.aboutText h3{
+  margin: 6px !important;
+  font-size: 20px;
+  opacity: 0.6;
+  line-height: 70px;
+  color: #000;
+}
+
+.aboutImage img{
+  width: 28vw;
+  padding-right: 50px;
+}
+
+
+/* RESPONSIVE */
+@media only screen and (max-width: 800px){
+  .nav{
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    height: auto;
+    overflow: hidden;
+  }
+  .nav h4{
+    font-size: 6vw;
+    margin-top: 10px;
+    margin-bottom: 14px;
+  }
+  .nav .links a{
+    margin-right: 25px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+   /*ww*/
+.hero{
+  width: 100%;
+  position: relative;
+  top: 100px;
+  margin-top: 100px ;
+}
+.btn-box{
+  display: flex;
+  border-bottom: 1px solid #cccccc;
+}
+.btn-box a{
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  margin-right: 20px;
+  font-size: 7px;
+  font-weight: bold;
+  color: #000;
+}
+
+  /* LANDING PAGE */
+  .landing{
+    flex-direction: column-reverse;
+    height: 750px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .landingText h1{
+    font-size: 6vw;
+    margin: 0 !important;
+  }
+  .landingText h3{
+    font-size: 16px;
+    color: #000;
+    line-height: 30px;
+  }
+  .landingImage img{
+    height: 400px;
+    width: 52vw;
+    margin-bottom: 20px;
+  }
+
+  /* ABOUT */
+  .about{
+    flex-direction: column-reverse;
+    height: 750px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 200px;
+    margin-top: 200px ;
+  }
+  .aboutText h1{
+    font-size: 6vw;
+    margin: 0 !important;
+  }
+  .aboutText h3{
+    font-size: 16px;
+    color: #000;
+    line-height: 30px;
+  }
+  .aboutImage img{
+    width: 52vw;
+    padding-left: 50px;
+  }
+
+}
