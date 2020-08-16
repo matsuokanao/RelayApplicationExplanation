@@ -35,7 +35,7 @@ html,body{
   color: #000;
 }
 .nav .links .mainlink{
- color: #e0501b;
+ color: #e63946;
 }
 .nav h4{
   font-size: 22px;
@@ -63,10 +63,10 @@ html,body{
   color: #000;
 }
 .btn-box a:hover{
-  color: #02c39a;
+  color: #e63946;
 }
 .btn-box .mainlinks{
-  color: #02c39a;
+  color: #e63946;
 }
 .content-right img{
   width: 350px;
@@ -89,6 +89,7 @@ html,body{
   flex-basis: 50%;
   text-align: center;
 }
+
 /* LANDING CSS */
 .landing{
   display: flex;
@@ -109,20 +110,6 @@ html,body{
   opacity: 0.6;
   line-height: 70px;
   color: #000;
-}
-.landingText .btn{
-  width: 120px;
-  margin-top: 30px;
-  font-size: 1.2vw;
-  padding: 14px 20px 14px 20px;
-  background-color: #02c39a;
-  color: #ffffff;
-  border-radius: 45px;
-}
-
-.landingText .btn a{
-  font-size: 1.2vw;
-  color: #ffffff;
 }
 .landingImage img{
   width: 28vw;
@@ -148,6 +135,7 @@ html,body{
   font-size: 20px;
   opacity: 0.6;
   line-height: 70px;
+  color: #000;
 }
 
 .aboutImage img{
@@ -175,9 +163,9 @@ html,body{
     font-size: 12px;
     font-weight: 600;
   }
-  /*ww*/
+   /*ww*/
 .hero{
-  width: 80%;
+  width: 100%;
   position: relative;
   top: 100px;
   margin-top: 100px ;
@@ -192,7 +180,7 @@ html,body{
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
-  margin-right: 50px;
+  margin-right: 20px;
   font-size: 7px;
   font-weight: bold;
   color: #000;
@@ -212,13 +200,8 @@ html,body{
   }
   .landingText h3{
     font-size: 16px;
+    color: #000;
     line-height: 30px;
-  }
-  .landingText .btn{
-    margin: 0 auto;
-  }
-  .landingText .btn a{
-    font-size: 3vw;
   }
   .landingImage img{
     height: 400px;
@@ -240,6 +223,7 @@ html,body{
   }
   .aboutText h3{
     font-size: 16px;
+    color: #000;
     line-height: 30px;
   }
   .aboutImage img{
