@@ -95,7 +95,7 @@ html,body{
   height: 100vh;
 }
 .aboutText h1{
-  font-size: 6vw;
+  font-size: 4vw;
   margin: 0 !important;
 }
 
@@ -115,6 +115,7 @@ html,body{
 .infoSection{
   height: 600px;
 }
+
 
 .infoHeader{
   text-align: center;
@@ -147,7 +148,7 @@ html,body{
 .infoCards .two .cardtwoImg{
   width: 300px;
   position: absolute;
-  top: -50px;
+  top: -20px;
   right: -50px;
 }
 
@@ -225,7 +226,7 @@ html,body{
 .infoCardstwo .four .cardfourImg{
   width: 300px;
   position: absolute;
-  top: -50px;
+  top: -20px;
   right: -50px;
 }
 
@@ -235,6 +236,7 @@ html,body{
 }
 
 .cardbgfour{
+  top: 30px;
   height: 150px;
   background-color: #02c39a;
 }
@@ -383,7 +385,11 @@ html,body{
     text-align: center;
   
   }
-
-  
+  .cardbgthree{
+    top: -20px;
+    margin-top: -20px ;
+    height: 150px;
+    background-color: #ffd166;
+  }
 
 }
